@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/title_logo1.jpg">
+    
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <nav>
+            <img src="./images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openMenu()"></i>
+           </nav>
+           <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I am <span>Chickandar</span><br><span>Batcha</span> From Chennai</h1>
+           </div>
+        </div>
+    </div>
+    <!-- ---------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/aboutimage.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My Name is Chickandar Batcha J from Arumbakkam,Chennai and 
+                        I had Completed MBA in PULC(Pondicherry University-Loyola College), 
+                        then I completed My FullStack Development In Java 
+                        and I am currently Looking for Job to kickStart My Career in IT Industry  </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                        <p class="tab-links" onclick="openTab('hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Core Java, OOPS concepts, Collection FrameWorks</li>
+                            <li><span>SQL</span><br>CRUD Operations, DDL, DMl, TCL, DQL, Joins, Sub-Queries</li>
+                            <li><span>Web Development</span><br>Creating Responsive Websites Using HTML, CSS, JAVASCRIPT</li>
+                            <li><span>J2EE</span><br>JDBC, Hibernate with JPA, Servlet, JSP, Spring, SpringBoot </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>FullStack Development in Java</li>
+                            <li><span>2023</span><br>MBA</li>
+                            <li><span>2021</span><br>B.COM</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Rubik Cube</span><br>Solving the Cube in different style</li>
+                            <li><span>Carrom Board</span><br>Playing Carrom Board with Tricky Shots</li>
+                            <li><span>Chess Board</span><br>Playing  chess to Improve quick decision making skill </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------Services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title center">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code" style="color: #ffffff;"></i>
+                    <h2>Web Design</h2>
+                    <p>Based on the Requirement, I can create a Responsive and Interactive Web Applications</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-server" style="color: #ffffff;"></i>
+                    <h2>Back-end Logics</h2>
+                    <p>Based on the Design, I can write a Business Logics using Advance Concepts in Java</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database" style="color: #ffffff;"></i>
+                    <h2>DataBase Logics</h2>
+                    <p>Providing Logics For CRUD Operations in DataBase and Connectivity Logics using J2EE Frameworks</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------portfolio------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title center">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="./images/studentregisterform.png" >
+                    <div class="layer">
+                        <h3>Student Registration Form</h3>
+                        <p>Student Registration form was created with Lot of validation on the page</p>
+                        <a href="https://batcha786.neocities.org/StudentRegisterForms/TablewithForms"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./images/GoDaddyClone.png" >
+                    <div class="layer">
+                        <h3>GoDaddy Cloning</h3>
+                        <p>Cloning the GoDaddy Website was really a challenging one</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project" >
+                    <img src="./images/event.png" style="border:1px #262626 solid ;" >
+                    <div class="layer">
+                        <h3>Photo Gallery Event Page</h3>
+                        <p>Just a try for a photo gallery event invitation </p>
+                        <a href="https://batcha786.neocities.org/Events/Event"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./images/InstagramLoginClone.png" >
+                    <div class="layer">
+                        <h3>Instagram Login Page Clone</h3>
+                        <p>Cloning the exact design of Instagram Login Page</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ----------------Contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> chickandarbatcha786@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 6382504681</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/chickandar.batcha?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/kovakaran_but_paasakaran?igsh=MWtjd2M1OG16cmZoZg=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/chickandar-batcha-j-814127231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Batcha786"><i class="fa-brands fa-github"></i></a>
+                    </div>  
+                    <a href="./images/CHICKANDAR_BATCHA_J_RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message"  rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;2024 Made <i class="fa-solid fa-heart"></i> By J.C.Batcha</p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/de3b554e97.js" crossorigin="anonymous"></script>
+</body>
+</html>
