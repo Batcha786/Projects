@@ -1,0 +1,53 @@
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/11/09/30/mobile-phone-1087845_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+table{
+    background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.667),rgba(0, 0, 255, 0.676),rgb(0, 0, 0));
+    font-size: 14px;
+    color:white;
+    padding: 20px;
+    
+
+}
+caption{
+    width: inherit;
+    color:white;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 255, 0.751),hsla(314, 66%, 35%, 0.443),#800080);
+    font-size: 25px;
+
+}
+.buttons{
+    width: 130px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+}
+
+input[type=text], input[type=email], input[type=number]{
+    width: 50%;
+    padding: 6px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+   }
+input.field,textarea,select{
+    border: 2px solid blue;
+    background-image: linear-gradient(to top,#ff000071,hsla(240, 100%, 50%, 0.443),#800080);
+    border-radius: 7px;
+    justify-content: center;
+    
+}
+.buttons:hover{
+    background-color: white;
+    color: blue;
+}
+input.field:hover{
+    background-color:;
+}
